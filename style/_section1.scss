@@ -1,0 +1,59 @@
+@import "vars";
+.section1 {
+  position: relative;
+  top: 4em;
+  z-index: 1;
+  width: 100%;
+  padding: 0 0.3em;
+  background-color: $yellow-clr;
+  .cont {
+    max-width: $max-width;
+    margin: auto;
+    top: 5em;
+    display: flex;
+    
+
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      width: 50%;
+      img {
+        width: 60%;
+      }
+    }
+
+    .left {
+      padding-top: 3em;
+      width: 50%;
+      label {
+        display: inline-block;
+        background-color: $black-clr;
+        color: white;
+        padding: 0.3em 0.6em;
+        font-family: Open Sans;
+        line-height: 1;
+        letter-spacing: 0.212em;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-family: Hanken book;
+        text-transform: uppercase;
+        padding-top: 0.3em;
+        color: $black-clr;
+        font-size: 5.921rem;
+        line-height: 1.1em;
+        font-weight: 400;
+      }
+      p {
+        font-family: Open Sans;
+        font-size: 1.618rem;
+        line-height: 1.5em;
+        letter-spacing: -0.02em;
+        color: $black-clr;
+        width: 120%;
+      }
+    }
+  }
+}

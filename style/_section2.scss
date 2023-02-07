@@ -1,0 +1,64 @@
+@import "vars";
+.section2{
+    position: relative;
+    top: 4em;
+    padding: 0 0.3em;
+    background-color: $yellow-clr;
+    .cont-2{
+        max-width: $max-width;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding-top:5em ;
+        padding-left: 2em ;
+        padding-right:2em ;
+        padding-bottom: 10rem;
+
+        div{
+            width: 33%;
+            // padding-left: 2em ;
+            padding-right:2em ;
+            img{
+                width: 4em;
+                margin-bottom: 2em;
+                
+            }
+            h3{
+                color: lightblue;
+                font-family: Hanken book;
+                color: #20a5e6;
+                line-height: 1.2em;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                font-size: 1em;
+                font-weight: 100;
+                margin-top: 0.5em;
+            }
+            p{
+                font-family: open sans;
+                color: $black-clr;
+                margin-top: 0.5em;
+                letter-spacing: -0.01em;
+                font-size: 1em;
+                line-height: 1.5em;
+                margin-bottom: 2em;
+            }
+            a{
+                
+                background-color: #20a5e6;
+                color: white;
+                padding: 0.8em 1.3em;
+                border-radius: 0.5em;
+                text-decoration: none;
+                font-size: 0.8em;
+                font-family: Hanken book;
+                box-sizing: content-box;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+
+
+}

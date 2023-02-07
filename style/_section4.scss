@@ -1,0 +1,125 @@
+.section4 {
+  background-color: $blue;
+  padding-top: 12em;
+  padding-bottom:8em ;
+
+  .cont-4 {
+    max-width: $max-width;
+    margin: auto;
+
+    .upper-content {
+      label {
+        display: inline-block;
+        background-color: $black-clr;
+        color: white;
+        padding: 0.3em 0.6em;
+        font-family: Open Sans;
+        line-height: 1;
+        letter-spacing: 0.212em;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-family: Hanken book;
+        text-transform: uppercase;
+        padding-top: 0.3em;
+        color: $black-clr;
+        font-size: 5.921rem;
+        line-height: 1.1em;
+        font-weight: 400;
+      }
+      p {
+        font-family: Open Sans;
+        font-size: 1.618rem;
+        line-height: 1.5em;
+        letter-spacing: -0.02em;
+        color: $black-clr;
+       
+      }
+    }
+    .content-4 {
+      display: flex;
+      margin-top: 6em;
+      width: 100%;
+      .content2-left {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+        }
+        h3 {
+          color: lightblue;
+          font-family: Hanken book;
+          color: #20a5e6;
+          line-height: 1.2em;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          font-size: 1em;
+          font-weight: 100;
+          margin-top: 0.5em;
+        }
+      }
+      .content2-mid-left {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+        }
+        h3 {
+          color: lightblue;
+          font-family: Hanken book;
+          color: #20a5e6;
+          line-height: 1.2em;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          font-size: 1em;
+          font-weight: 100;
+          margin-top: 0.5em;
+        }
+      }
+      .content2-mid-right {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+        }
+        h3 {
+          color: lightblue;
+          font-family: Hanken book;
+          color: #20a5e6;
+          line-height: 1.2em;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          font-size: 1em;
+          font-weight: 100;
+          margin-top: 0.5em;
+        }
+      }
+      .content2-right {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+        }
+        h3 {
+          color: lightblue;
+          font-family: Hanken book;
+          color: #20a5e6;
+          line-height: 1.2em;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          font-size: 1em;
+          font-weight: 100;
+          margin-top: 0.5em;
+        }
+      }
+    }
+  }
+}

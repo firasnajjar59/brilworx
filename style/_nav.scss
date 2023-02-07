@@ -1,0 +1,47 @@
+@import "vars";
+.wrapper-nav{
+    position: fixed;
+    z-index: 100;
+    top: 0%;
+    width: 100%;
+    right: auto;
+    left: auto;
+    background-color: $yellow-clr;
+.nav{
+    max-width: $max-width;
+    margin: auto;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+    background-color: $yellow-clr;
+    height: 5rem;
+    .logo{
+        width: 20%;
+        img{
+            width: 100%;
+        }
+    }
+    ul{
+        display: flex;
+        gap: 1.5em;
+        li{
+            list-style: none;
+            a{
+                font-family: Hanken book;
+                font-size: 1em;
+                color: $black-clr;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                    color: lightblue;
+                }
+            }
+            .active{
+                text-decoration: underline;
+            }
+
+        }
+    }
+}}

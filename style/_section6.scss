@@ -1,0 +1,51 @@
+
+
+
+.section6{
+background-color: $yellow-clr;
+    padding-top: 6em;
+    padding-bottom:6em ;
+
+    .cont-6{
+        max-width: $max-width;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+        img{
+width: 4em;
+
+        }
+        h2{
+            font-family: Hanken book;
+            text-transform: uppercase;
+            padding-top: 0.3em;
+            color: $black-clr;
+            font-size: 2.921rem;
+            line-height: 1.1em;
+            font-weight: 400;
+        }
+        p{
+            font-family: open sans;
+            color: $black-clr;
+            margin-top: 0.5em;
+            letter-spacing: -0.01em;
+            font-size: 1em;
+            line-height: 1.5em;
+            margin-bottom: 2em;
+        }
+        a{
+            background-color: $black-clr;
+            color: white;
+            padding: 1.5em 2em;
+            border-radius: 0.5em;
+            text-decoration: none;
+            font-size: 0.8em;
+            font-family: Hanken book;
+            box-sizing: content-box;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+    }
+}
